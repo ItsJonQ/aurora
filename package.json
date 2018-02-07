@@ -1,22 +1,22 @@
 {
-  "name": "nord-visual-studio-code",
-  "displayName": "Nord",
-  "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme.",
-  "version": "0.6.0",
-  "publisher": "arcticicestudio",
+  "name": "@itsjonq/aurora",
+  "displayName": "Aurora",
+  "description": "A darkened blue theme based on Nord.",
+  "version": "0.0.1",
+  "publisher": "Q",
   "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com"
+    "name": "ItsJonQ",
+    "email": "hello@jonquach.com"
   },
-  "homepage": "https://github.com/arcticicestudio/nord-visual-studio-code",
+  "homepage": "https://github.com/ItsJonQ/aurora",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arcticicestudio/nord-visual-studio-code"
+    "url": "https://github.com/ItsJonQ/aurora"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/nord-visual-studio-code/issues"
+    "url": "https://github.com/ItsJonQ/aurora/issues"
   },
-  "license": "(MIT AND CC-BY-SA-4.0)",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.12.0"
   },
@@ -24,7 +24,6 @@
     "color": "#2E3440",
     "theme": "dark"
   },
-  "icon": "assets/nord-visual-studio-code-icon-marketplace.png",
   "markdown": "github",
   "categories": [
     "Themes"
@@ -36,29 +35,12 @@
     "clean",
     "elegant"
   ],
-  "badges": [
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",
-      "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
-      "description": "Extension version"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg",
-      "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
-      "description": "Extension installs"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/arcticicestudio.nord-visual-studio-code.svg",
-      "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
-      "description": "Extension Rating"
-    }
-  ],
   "contributes": {
     "themes": [
       {
-        "label": "Nord",
+        "label": "Aurora",
         "uiTheme": "vs-dark",
-        "path": "./themes/nord.json"
+        "path": "./themes/aurora.json"
       }
     ]
   },
